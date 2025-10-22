@@ -1,37 +1,38 @@
-🔐 Node.js Authentication App
+## 🔐 Node.js Authentication App
 
-This project provides a simple authentication system built with Node.js and Express.
-It allows users to register, log in, and **access protected routes** securely using JSON Web Tokens (JWT).
+This project provides a simple **authentication system** built with **Node.js** and **Express**.
+It allows users to **register**, **log in**, and **access protected routes** securely using **JSON Web Tokens (JWT)**.
 
-🚀 Features
+### 🚀 Features
 
 * User registration (Sign Up)
 * User login (Sign In)
-* Password hashing with bcrypt
-* Authentication using JWT
+* Password hashing with **bcrypt**
+* Authentication using **JWT**
 * Protected routes with middleware
 * Clean and modular API structure
 
 ### 🛠️ Technologies Used
 
-* Node.js
-* Express.js
-* MongoDB / Mongoose
-* bcrypt.js for password encryption
-* jsonwebtoken (JWT) for authentication
+* **Node.js**
+* **Express.js**
+* **MongoDB / Mongoose**
+* **bcrypt.js** for password encryption
+* **jsonwebtoken (JWT)** for authentication
 
-▶️ Getting Started
+### ▶️ Getting Started
 
-bash
+```bash
 # Install dependencies
 npm install
 
 # Run the server
 npm start
+```
 
+### 📁 Project Structure
 
-📁 Project Structure
-
+```
 /project
 │
 ├── server.js          # Entry point
@@ -39,4 +40,6 @@ npm start
 ├── controllers/       # Business logic
 ├── models/            # Database models
 └── middleware/        # Authentication middleware
+```
+
 
